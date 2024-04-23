@@ -24,6 +24,7 @@
                     <div id="bar">
                         <li><a href="#header"><strong>Welcome</strong></a></li>
                         <li><a href="#about"><strong>About Me</strong></a></li>
+                        <li><a href="#skills"><strong>Skills</strong></a></li>
                         <li><a href="#portfolio"><strong>Projects</strong></a></li>
                         <li><a href="#contact"><strong>Contact</strong></a></li>
                         <li><i class="fa-solid fa-yin-yang" id = "icon" onclick = "changeIcon()"></i></li>
@@ -66,7 +67,7 @@
                             <p class = "tab-links" onclick = "opentab('experience')">Experience</p>
                             <p class = "tab-links" onclick = "opentab('education')">Education</p>
                         </div>
-                        <div class = "tab-contents active-tab" id = "skills">
+                        <div class = "tab-contents active-tab" >
                             <ul>
                                 <li><span>UI/UX</span><br>Designing Web Interfaces</li>
                                 <li><span>Web development</span><br>Implementing Real World Websites</li>
@@ -215,13 +216,79 @@
     </div>
 
 
-<!-- ---------------------Skills-----------------------------     -->
+<!-- ---------------------Skills------------------------------->
 
 <div class="trans-box">
-    <div class="bar-col1">
-        <p><i class="fa-brands fa-python" style="color: #74C0FC;"></i> Python</p>
-        <p><i class="fa-brands fa-java" style="color: #B197FC;"></i> Java</p>
-        <p><i class="fa-brands fa-html5" style="color: #ff9b3d;"></i> Html</p>
+    <div id="skills">
+        <div class="bar-col1">
+            <div class="one">
+                <p><i class="fa-brands fa-python" style="color: #74C0FC;"></i> Python</p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="90%"></span>
+                    </div>
+                </div>
+                <p><i class="fa-brands fa-css3-alt" style="color: #3b6af7; padding-left: 20px"></i> CSS</p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="70%"></span>
+                    </div>
+                </div>  
+            </div>
+            
+            
+            <div class="one">
+                <p><i class="fa-brands fa-java" style="color: #B197FC;"></i> Java</p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="80%"></span>
+                    </div>
+                </div>
+                <p><i class="fa-brands fa-js" style="color: #e9da2f; padding-left: 20px";></i> Java Script</p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="70%"></span>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="one">
+                <p><i class="fa-brands fa-html5" style="color: #ff9b3d; padding-right: 20px;"></i> Html</p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="70%"></span>
+                    </div>
+                </div>
+                <p><i class="fa-solid fa-c" style="color: #63E6BE; padding-left: 40px; margin-right: 20px"></i> </p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="70%"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="one">
+                <p><i class="fa-solid fa-c" style="color: #41ea1f;"></i><i class="fa-solid fa-plus" style="color: #41ea1f;"></i><i class="fa-solid fa-plus"  style="color: #41ea1f;"></i> </p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="70%"></span>
+                    </div>
+                </div>
+                <p><i class="fa-brands fa-react" style="color: #63E6BE; padding-left: 20px;"></i> React</p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="70%"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="one" style="justify-content: flex-start; padding-left: 10px;">
+                <p><i class="fa-solid fa-database" style="color: #ff6666;"></i> SQL Database</p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <span data-width="70%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

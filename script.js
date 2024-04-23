@@ -38,27 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(user_name,email,message);
         alert("Form submit successful");
     });
-});
+}); 
 
-var icon = document.getElementById("icon");
-var hallo = document.getElementById("video");
-
-function changeIcon(){
-    console.log(hallo.src+"oo")
-    if(hallo.src == "bg.mp4" || hallo.src == ""){
-        hallo.src = "bg_white.mp4";
-    }
-    else{
-        hallo.src = "bg.mp4";
-    } 
+function changeIcon(){ 
     document.body.classList.toggle("light-theme");
 }
-
-
-
-
-
-
 
 const spans = document.querySelectorAll('.progress-bar span');
 
@@ -66,3 +50,4 @@ spans.forEach((span) => {
     span.style.width = span.dataset.width;
     span.innerHTML = span.dataset.width;
 });
+
